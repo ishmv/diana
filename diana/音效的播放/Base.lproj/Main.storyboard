@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="oI6-an-mcy">
+                                <frame key="frameInset" minX="167" minY="314" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Danieledesantis-Audio-Video-Outline-Play.ico"/>
+                                <connections>
+                                    <action selector="dawang" destination="BYZ-38-t0r" eventType="touchUpInside" id="P8y-hI-LGy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ksk-Hf-Axr">
+                                <frame key="frameInset" minX="45" minY="221" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Danieledesantis-Audio-Video-Outline-Play.ico"/>
+                                <connections>
+                                    <action selector="buyao" destination="BYZ-38-t0r" eventType="touchUpInside" id="9LJ-k6-ep9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="CeV-OV-E97">
+                                <frame key="frameInset" minX="45" minY="314" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Danieledesantis-Audio-Video-Outline-Play.ico"/>
+                                <connections>
+                                    <action selector="xiaowang" destination="BYZ-38-t0r" eventType="touchUpInside" id="ogX-Wc-7AU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="57S-pp-go0">
+                                <frame key="frameInset" minX="167" minY="221" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Danieledesantis-Audio-Video-Outline-Play.ico"/>
+                                <connections>
+                                    <action selector="a9" destination="BYZ-38-t0r" eventType="touchUpInside" id="UP0-08-0eL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="U9Y-l6-CUX">
+                                <frame key="frameInset" minX="85.93%" minY="35.70%" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Danieledesantis-Audio-Video-Outline-Play.ico"/>
+                                <connections>
+                                    <action selector="a10" destination="BYZ-38-t0r" eventType="touchUpInside" id="kSj-Kn-u05"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="IFv-10-3ge">
+                                <frame key="frameInset" minX="85.93%" minY="50.73%" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Danieledesantis-Audio-Video-Outline-Play.ico"/>
+                                <connections>
+                                    <action selector="a14" destination="BYZ-38-t0r" eventType="touchUpInside" id="iZi-Y6-7aR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="aEn-nU-bl1">
+                                <frame key="frameInset" minX="45" minY="391" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Danieledesantis-Audio-Video-Outline-Play.ico"/>
+                                <connections>
+                                    <action selector="a16:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NWh-uF-HTn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="M9t-24-nZ4">
+                                <frame key="frameInset" minX="167" minY="391" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Danieledesantis-Audio-Video-Outline-Play.ico"/>
+                                <connections>
+                                    <action selector="a17:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2ao-RM-fkw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="X9y-sb-d8n">
+                                <frame key="frameInset" minX="281" minY="391" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Danieledesantis-Audio-Video-Outline-Play.ico"/>
+                                <connections>
+                                    <action selector="a18:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Krx-Sn-sNZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Mta-fi-tev">
+                                <frame key="frameInset" minX="45" minY="480" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Danieledesantis-Audio-Video-Outline-Play.ico"/>
+                                <connections>
+                                    <action selector="a22:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WpD-gg-25E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ejH-lU-DQG">
+                                <frame key="frameInset" minX="167" minY="480" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Danieledesantis-Audio-Video-Outline-Play.ico"/>
+                                <connections>
+                                    <action selector="a24:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bCL-Or-pnt"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Untitled.png" id="sQj-dY-MQh">
+                                <frame key="frameInset" width="375" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ФРАЗЫ  " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Zvj-w2-npg">
+                                <frame key="frameInset" minX="54" minY="42" width="275" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="60"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="1Zd-Vv-fTs">
+                                <frame key="frameInset" minX="281" minY="480" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Untitleqd.png"/>
+                                <connections>
+                                    <action selector="web:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gXs-qY-xpJ"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="1487866248134732341.png" id="ZJd-Yd-wSU">
+                                <frame key="frameInset" minX="-208" minY="176" width="1109" height="586"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="85.5" y="141.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1487866248134732341.png" width="924" height="720"/>
+        <image name="Danieledesantis-Audio-Video-Outline-Play.ico" width="256" height="256"/>
+        <image name="Untitled.png" width="700" height="700"/>
+        <image name="Untitleqd.png" width="256" height="256"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>
